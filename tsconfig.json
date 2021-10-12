@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "lib": ["ES2020"],
+        "module": "CommonJS",
+        "target": "ES2021",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "browser_components"
+    ]
+}

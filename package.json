@@ -1,0 +1,19 @@
+{
+    "name": "typescipt-bot-template",
+    "version": "1.0.0",
+    "description": "A template for a discord bot using typescript.",
+    "main": "src/index.ts",
+    "dependencies": {
+        "discord.js": "^13.2.0",
+        "typescript": "^4.4.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13",
+        "ts-node": "^10.2.1"
+    },
+    "scripts": {
+        "dev": "nodemon src/index.ts"
+    },
+    "author": "Harsh Patil",
+    "license": "ISC"
+}
